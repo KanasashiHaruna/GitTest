@@ -32,7 +32,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		///
 		/// ↓描画処理ここから
 		///
-		Novice::ScreenPrintf(30, 30, "Hellow Git");
+		Novice::ScreenPrintf(0, 30, "Hellow Git");
+		Novice::ScreenPrintf(0, 45, "マージしてください。");
 		/// ↑描画処理ここまで
 		///
 
