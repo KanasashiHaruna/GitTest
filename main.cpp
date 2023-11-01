@@ -35,6 +35,8 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 		Novice::ScreenPrintf(0, 30, "Hellow Git");
 		Novice::ScreenPrintf(0, 45, "マージしてください。");
 		Novice::ScreenPrintf(0, 45, "プルしてから作業。");
+
+		Novice::ScreenPrintf(0, 45, "プルしないで作業");
 		/// ↑描画処理ここまで
 		///
 
